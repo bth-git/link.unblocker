@@ -1,0 +1,5 @@
+|var url = prompt('Enter URL to unblock:','https://example.com');
+if (url) {
+    if (!url.startsWith('http')) url = 'https://' + url;
+    window.open('https://corsproxy.io/?' + encodeURIComponent(url), '_blank');
+}
