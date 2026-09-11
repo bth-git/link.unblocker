@@ -1,1 +1,0 @@
-javascript:(function(){var url=prompt('Your URL:','https://example.com');if(!url)return;if(!url.startsWith('http')){url='https://'+url;}var proxy='https://corsproxy.io/?';var finalUrl=proxy+encodeURIComponent(url);window.open(finalUrl,'_blank');})();
